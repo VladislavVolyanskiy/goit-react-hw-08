@@ -1,0 +1,26 @@
+.link {
+  font-size: 20px;
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+  color: #091d2f;
+}
+.link:hover {
+  color: rgb(40, 59, 28);
+  transform: scale(1.2);
+}
+.active {
+  color: rgb(255, 85, 0);
+  text-decoration: underline;
+}
+
+.navWrapper {
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listNav {
+  display: flex;
+  gap: 30px;
+}
